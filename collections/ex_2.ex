@@ -36,6 +36,6 @@ defmodule Ex2 do
     # interar cada elemento da lista com nossa função
     list_of_lists = for elem <- list, do: repeat.(elem, n)
 
-      List.flatten(list_of_lists)
+    List.flatten(list_of_lists)
   end
 end
