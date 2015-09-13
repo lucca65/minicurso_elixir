@@ -1,5 +1,4 @@
 defmodule Ex2 do
-
   @doc """
   Dado uma lista de inteiros e um número, retorne uma lista que repita
   n vezes cada elemento da lista de entrada
