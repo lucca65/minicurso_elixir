@@ -2,11 +2,14 @@ defmodule Tuples do
 
   @doc """
     Uma Tuple é construída com {}
+    Exemplos: {1,2,3}, {"a", "b", "c"}
 
-    Assim como a List, uma Tuple também pode armazenar qualquer valor. Porém,
-    Tuples geralmente são usadas como Keywords {chave: valor}.
+    Assim como a List, uma Tuple também pode armazenar qualquer valor.
+    Exemplo: {1, 2, 3, {10, "teste"}, [1, 2, 3], 'a'}
 
-    Outro uso bastante útil das Tuples está nos guards das funções. Combinadas
+    Tuplas de listas chave-valor são bastante usadas e conhecidas como Keyword lists
+
+    Um uso bastante útil das Tuples está nos guards das funções. Combinadas
     com um atom, {:ok, alguma_coisa}, produzimos o mesmo comportamento de um
     polimorfismo na POO
   """
