@@ -20,8 +20,4 @@ defmodule HelloWorld do
     print_hello_n_times(n-1)
   end
 
-  def print_this(x) do
-    IO.inspect(x)
-  end
-
 end
