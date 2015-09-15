@@ -7,8 +7,6 @@ defmodule Tuples do
     Assim como a List, uma Tuple também pode armazenar qualquer valor.
     Exemplo: {1, 2, 3, {10, "teste"}, [1, 2, 3], 'a'}
 
-    Tuplas de listas chave-valor são bastante usadas e conhecidas como Keyword lists
-
     Um uso bastante útil das Tuples está nos guards das funções. Combinadas
     com um atom, {:ok, alguma_coisa}, produzimos o mesmo comportamento de um
     polimorfismo na POO
