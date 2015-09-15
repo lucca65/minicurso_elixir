@@ -1,12 +1,14 @@
 defmodule Tuples do
 
   @doc """
-    Diferente da List, uma Tuple é alocada continuamente na memória, ou seja,
-    acessá-la por index ou recuperar seu tamanho são operações rápidas. Entretanto,
-    nos casos de inclusão ou exclusão de elementos são operações custosas pois
-    requer uma cópia de toda a Tuple na memória.
+    Uma Tuple é construída com {}
 
-    Tuples são comumente usadas como Keywords.
+    Assim como a List, uma Tuple também pode armazenar qualquer valor. Porém,
+    Tuples geralmente são usadas como Keywords {chave: valor}.
+
+    Outro uso bastante útil das Tuples está nos guards das funções. Combinadas
+    com um atom, {:ok, alguma_coisa}, produzimos o mesmo comportamento de um
+    polimorfismo na POO
   """
 
   def do_this(tuple \\ {:any, []}) do
@@ -25,7 +27,7 @@ defmodule Tuples do
   end
 
   defp do_something({:reverse, list}) do
-     List.foldr(list, 0 ,fn(x, _) -> IO.puts(x) end)
+     Enum.reverse list
   end
 
 end

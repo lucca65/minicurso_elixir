@@ -1,20 +1,13 @@
 defmodule HelloWorld do
 
   @doc """
-    IO é um modulo que fornece funções de leitura e escrita.
-
-                                         |-> função anônima que será executada
-                                        |    para cada elemento da lista
-    #1 - IO.puts -> Escreve a string passada por parâmetro
-    #2 - IO.inspect -> Escreve a estrutura passada por parâmetro
-
     Todas as linguagens funcionais, devido ao contexto imutável, não possuem
     iteração como for, while, do while e foreach. Portanto é necessário usar
     recursão.
 
-    #3 -> Quando usamos recursão, precisamos de um gatilho para poder pará-la.
+    Quando usamos recursão, precisamos de um gatilho para poder pará-la.
     Nesse caso, utilizamos o guard na declaração da função ou no parâmetro que
-    desejamos usar como gatilho. Exemplo: linhas 23 e 24
+    desejamos usar como gatilho. Exemplo: linhas 17 e 18
   """
 
   def print_hello do

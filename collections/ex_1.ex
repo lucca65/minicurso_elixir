@@ -15,8 +15,6 @@ defmodule Ex1 do
     Dica:
       head(list) ou hd(list) -> retorna o primeiro elemento de uma lista.
       tail(list) ou tl(list) -> retorna toda a lista exceto o primeiro elemento.
-      [] -> representa uma lista vazia
-      [1,2,3,4]-> cria uma lista com os elementos informados
   """
 
   # Solução usando Enum

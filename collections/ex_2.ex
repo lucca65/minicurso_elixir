@@ -9,7 +9,6 @@ defmodule Ex2 do
 
   Dica:
   Stream.cycle([n]) -> cria um ciclo de repetição com os valores recebidos.
-  Stream.iterate(valor_inicial, &(&1)) ->
 
   Nota:
   Uma solução possível para esse problema é usar o `for`. Apesar de não
