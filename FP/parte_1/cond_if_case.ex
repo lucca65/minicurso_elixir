@@ -7,7 +7,7 @@ defmodule CondIfCase do
   def case_example do
     case "String value" do
       "String Value" -> false
-      "STRING VALUE" -> false
+      x when is_number(x) -> false
                    1 -> false
       :string_value  -> false
       "String value" -> true
