@@ -1,4 +1,4 @@
-defmodule Ex3 do
+defmodule Ex4 do
   @doc """
   Dado uma lista de inteiros e um número, retorne uma lista que repita
   n vezes cada elemento da lista de entrada
