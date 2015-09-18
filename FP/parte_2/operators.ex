@@ -1,7 +1,7 @@
 defmodule Operators do
 
   @doc """
-    TODO
+    TODO principalmente |>
   """
-  
+
 end

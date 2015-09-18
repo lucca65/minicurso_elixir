@@ -1,7 +1,7 @@
-defmodule Maps do
+defmodule TryCatchRescue do
 
   @doc """
     TODO
   """
-  
+
 end

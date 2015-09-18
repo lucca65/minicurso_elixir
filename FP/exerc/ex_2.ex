@@ -13,6 +13,7 @@ defmodule Ex2 do
                5
 
     Dica:
+      Listas são definidas com: []
       head(list) ou hd(list) -> retorna o primeiro elemento de uma lista.
       tail(list) ou tl(list) -> retorna toda a lista exceto o primeiro elemento.
   """
