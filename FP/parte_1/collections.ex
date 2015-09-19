@@ -15,28 +15,35 @@ defmodule Collections do
       A principal característica de um Dict é a repetição de elementos com mesma
       chave. Exemplo
 
-          my_dict = [nome: "Leo", nome: "Joao"]
-          [nome: "Leo", nome: "Joao"]
+     ```elixir
+     my_dict = [nome: "Leo", nome: "Joao"]
+     [nome: "Leo", nome: "Joao"]
+     ```
 
       É possível acessar os valores de um Dict informando o atom que representa
       a chave. Exemplo
 
-        my_dict[:nome]
-        "Leo"
+      ```elixir
+      my_dict[:nome]
+      "Leo"
+      ```
 
       Nota:
 
       Map ou Mapa são representados com %{chave: valor}, %{:chave => valor} ou
       %{"chave" => valor}. Diferente dos Dicts, o Map não permite chaves iguais.
 
-        my_map = %{nome: "Leo", nome: "Joao"}
-        %{nome: "Joao"}
+      ```elixir
+      my_map = %{nome: "Leo", nome: "Joao"}
+      %{nome: "Joao"}
+      ```
 
       Assim como os Dicts, podemos acessar o valor informando a chave
 
-        my_map[:nome]
-        "Joao"
-
+      ```elixir
+      my_map[:nome]
+      "Joao"
+      ```
   """
 
  def tuple_example do

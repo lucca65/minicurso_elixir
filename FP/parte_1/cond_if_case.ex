@@ -31,12 +31,12 @@ defmodule CondIfCase do
     end
   end
 
-  def cond_example(float) do
+  def cond_example(value) do
     cond do
-      float >= 0 or float <= 149.0 -> IO.puts "Taxa = R$#{float * 0.03}"
-      float >= 150.0 or float <= 299.0 ->  IO.puts "Taxa = R$#{ float * 0.06}"
-      float >= 300.0 or float >= 500.0 ->  IO.puts "Taxa = R$#{ float * 0.15}"
-      true ->  IO.puts "Taxa = R$#{ float * 0.35}"
+      value >= 0 or value <= 149.0 -> IO.puts "Taxa = R$#{value * 0.03}"
+      value >= 150.0 or value <= 299.0 ->  IO.puts "Taxa = R$#{ value * 0.06}"
+      value >= 300.0 or value >= 500.0 ->  IO.puts "Taxa = R$#{ value * 0.15}"
+      true ->  IO.puts "Taxa = R$#{ value * 0.35}"
     end
   end
 
