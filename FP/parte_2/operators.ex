@@ -1,7 +1,9 @@
 defmodule Operators do
 
   @doc """
-    Operadores aritméticos, logicos e outros
+    Operadores aritméticos, logicos e outros.
+
+    Operadores são funções!
   """
 
   def arithmetic_operators do
@@ -28,11 +30,11 @@ defmodule Operators do
 
   def other_operators do
     2 |> div(2) = div(2, 2)
-    
+
     x = 1
     try do
-      ^x = 2 
-    rescue 
+      ^x = 2
+    rescue
       _ -> IO.puts("x cannot be rebinding")
     end
     {^x, y} = {1, 2}
@@ -40,4 +42,8 @@ defmodule Operators do
     IO.puts(y)
   end
 
+  def operators_are_functions do
+    1 + 1 == :erlang.+(1, 1) # + is the name of the function!
+    :erlang.==("hello!", "hello!") == ("hi" == "hi")
+  end
 end
