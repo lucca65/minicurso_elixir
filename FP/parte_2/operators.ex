@@ -31,6 +31,11 @@ defmodule Operators do
   def other_operators do
     2 |> div(2) = div(2, 2)
 
+    [1, 2, 3] ++ [4, 5, 6]
+    [1, 2, 3, 4] -- [2, 3]
+
+    for x <- 1..10, do: IO.puts(x)
+    
     x = 1
     try do
       ^x = 2
