@@ -4,46 +4,23 @@ defmodule Comprehensions do
     TODO
   """
 
-  def sum_odd(list) do
-    Enum.filter(list, fn(x) -> is_number(x) and Integer.is_odd(x) end)
-    |> sum_integers_from_list
-  end
+def simple_for do
+  IO.puts "Do 1 ao 5"
+  for n <- 1..5, do: IO.puts n
 
-  def sum_even(list) do
-    Enum.filter(list, fn(x) -> is_number(x) and Integer.is_even(x) end)
-    |> sum_integers_from_list
-  end
+  IO.puts "Para cada elemento de 1 a 5 multiplique por 2"
+  for n <- 1..5, do: IO.puts n * 2
 
-  def sum_all(list) do
-    Enum.filter(list, fn(x) -> is_number(x) end)
-    |> sum_integers_from_list
-  end
+  IO.puts "Para cada elemento de 1 a 5, que for par, multiplique por 3"
+  for n <- 1..5, rem(n, 2) == 0, do: IO.puts n * 3
 
-  defp sum_integers_from_list(list), do: List.foldl(list, 0 ,fn(x, acc) -> x + acc end)
+  IO.puts "Multiplique cada elemento de 1 a 5 por cada elemento de 0 a 1"
+  for n <- 1..5, y <- 0..1, do: IO.puts n * y
+end
 
-
-  @doc """
-    TODO
-  """
-
-  def do_this(tuple \\ {:any, []}) do
-    tuple
-    |> do_something
-  end
-
-  defp do_something({_, []}), do: :ok
-
-  defp do_something({:sum, list}) do
-    List.foldl(list, 0 ,fn(x, acc) -> x + acc end)
-  end
-
-  defp do_something({:multiply, list}) do
-    List.foldl(list, 1 ,fn(x, acc) -> x * acc end)
-  end
-
-  defp do_something({:reverse, list}) do
-     Enum.reverse list
-  end
-
+def for_with_pattermatching do
+  values = [sim: 1, nao: 2, sim: 3, nao: 4]
+  for {:sim, n} <- values, do: n * n
+end
 
 end
