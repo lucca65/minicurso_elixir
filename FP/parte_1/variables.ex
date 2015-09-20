@@ -1,21 +1,21 @@
 defmodule Variables do
 
   @doc """
-    TODO
-    contexto estático
+    Tipos e Declarações
 
-    atom
-
-    rebound
+    -> Todas as variaveis são imutáveis.
+    -> Variáveis não precisam de tipos.
+    -> O tipo é inferido em tempo de execução.
   """
-  def variables do
-    x = 1          # integer
-    x = 0x1F       # integer
-    x = 1.0        # float
-    x = true       # boolean
-    x = :atom      # atom / symbol
-    x = "elixir"   # string
-    x = [1, 2, 3]  # list
-    x = {1, 2, 3}  # tuple
+  def types do
+    int = 1
+    float = 1.0
+    boolean = true
+    atom = :atom
+    string = "elixir"
+    list = [1, 2, 3]
+    tuple = {1, 2, 3}
+    function =  fn(x) -> x + x end
+    anonymous_function = &(&1 + &1)
   end
 end

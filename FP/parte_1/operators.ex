@@ -42,6 +42,7 @@ defmodule Operators do
     rescue
       _ -> IO.puts("x cannot be rebinding")
     end
+    
     {^x, y} = {1, 2}
     IO.puts(x)
     IO.puts(y)

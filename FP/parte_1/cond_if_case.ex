@@ -1,7 +1,13 @@
 defmodule CondIfCase do
 
   @doc """
-    TODO
+    Estruturas Seletivas e Condição
+
+    -> case
+    -> cond
+    -> if else
+    -> unless else
+
   """
 
   def case_example do

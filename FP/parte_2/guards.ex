@@ -1,7 +1,9 @@
 defmodule Guards do
 
   @doc """
-    TODO
+    Guards são condições que filtrar parâmetros de entrada em uma função.
+
+    Um Guard é definido com um ```when``` após a declaração dos parâmetros
   """
 
   def fibonacci(num) when num <= 2, do: 1
