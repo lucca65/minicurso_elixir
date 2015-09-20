@@ -1,5 +1,5 @@
 defmodule Functions do
-  
+
   @doc """
    Declarações normais
    def -> função visivél fora do módulo

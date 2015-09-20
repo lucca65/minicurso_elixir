@@ -11,8 +11,6 @@ defmodule Operators do
     3 - 1 = 2
     2 * 2 = 4
     4 / 2 = 2.0
-    div(5, 2) = 2
-    rem(5, 2) = 1
   end
 
   def logical_operators do
@@ -29,8 +27,10 @@ defmodule Operators do
   end
 
   def other_operators do
+    # pipe operator
     2 |> div(2) = div(2, 2)
 
+    # somando e subtraindo listas
     IO.inspect([1, 2, 3] ++ [4, 5, 6])
     IO.inspect([1, 2, 3, 4] -- [2, 3])
 
@@ -42,7 +42,7 @@ defmodule Operators do
     rescue
       _ -> IO.puts("x cannot be rebinding")
     end
-    
+
     {^x, y} = {1, 2}
     IO.puts(x)
     IO.puts(y)

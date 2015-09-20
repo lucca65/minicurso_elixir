@@ -1,12 +1,13 @@
-defmodule Ex3 do
-  @doc """
+defmodule MiniCalculadora do
 
+  @doc """
   Dado uma tupla de entrada do tipo: {atom, valor1, valor1}. No qual:
-  atom = :soma || :multiplica || :subtrai || nil
+  atom = :soma || :multiplica || :subtrai || :divide
   valor1 = número
   valor2 = número
 
-  Crie uma estrutura que realize a operação usando cond ou case.
+  Crie uma estrutura que realize a operação usando qualquer aplicação  do
+  PatternMatching
 
   Exemplo:
     entrada: {:soma, 1, 1}
@@ -28,6 +29,7 @@ defmodule Ex3 do
       {:soma, val1, val2} -> val1 + val2
       {:multiplica, val1, val2} -> val1 * val2
       {:subtrai, val1, val2} -> val1 - val2
+      {:divide, val1, val2} -> val1 / val2
       _ -> IO.puts "invalid"
     end
   end

@@ -1,8 +1,15 @@
-defmodule Ex1 do
+defmodule HelloRecursivo do
 
   @doc """
     Utilizando recursão, crie uma função que recebe um número e printa no
     console "hello world" n vezes.
+
+    Exemplo:
+      entrada: 3
+      saída:
+        hello world
+        hello world
+        hello world
   """
 
   # Solução

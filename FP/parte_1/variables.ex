@@ -11,7 +11,7 @@ defmodule Variables do
     int = 1
     float = 1.0
     boolean = true
-    atom = :atom
+    atom = :value
     string = "elixir"
     list = [1, 2, 3]
     tuple = {1, 2, 3}

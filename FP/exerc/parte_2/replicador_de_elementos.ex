@@ -1,5 +1,8 @@
-defmodule Ex4 do
+defmodule ReplicadorDeElementos do
+
   @doc """
+  TODO -> Simplificar mais
+  
   Dado uma lista de inteiros e um número, retorne uma lista que repita
   n vezes cada elemento da lista de entrada
 
