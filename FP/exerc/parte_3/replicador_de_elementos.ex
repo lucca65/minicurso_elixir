@@ -1,8 +1,6 @@
 defmodule ReplicadorDeElementos do
 
   @doc """
-  TODO -> Simplificar mais
-  
   Dado uma lista de inteiros e um número, retorne uma lista que repita
   n vezes cada elemento da lista de entrada
 
@@ -10,18 +8,9 @@ defmodule ReplicadorDeElementos do
   entrada -> [1,2,3], 2
   Saída -> [1,1,2,2,3,3]
 
-  Dica:
-  Stream.cycle([n]) -> cria um ciclo de repetição com os valores recebidos.
-
   Nota:
   Uma solução possível para esse problema é usar o `for`. Apesar de não
   funcionar como um for tradicional, também serve para interagir com listas
-
-  Exemplo:
-  ```
-  iex(1)> for x <- 1..3, do: n * n
-  [1, 4, 9]
-  ```
   """
 
   def your_solution(list, n) do
