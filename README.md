@@ -11,7 +11,7 @@ Conteúdo
 - Como trabalhar com coleções (OO vs FP)
 - Exercicios Básicos
 - Exercicios com composição de problemas
-- Exercicios com nodes
+- Exercicios com comunicação entre diferentes nós
 
 Dicas & Ferramentas
 ===
