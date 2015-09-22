@@ -6,12 +6,7 @@ defmodule Guards do
     Um Guard é definido com um ```when``` após a declaração dos parâmetros
   """
 
-  def fibonacci(num) when num <= 2, do: 1
-  def fibonacci(num) do
-    fibonacci(num-1) + fibonacci(num-2);
-  end
-
-  def valores_da_lista([]), do: :ok
+  def valores_da_lista(lista) when lista == [], do: :ok
   def valores_da_lista(lista) do
     [primeiro_elem | resto] = lista
     IO.puts primeiro_elem
