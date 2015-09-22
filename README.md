@@ -8,8 +8,12 @@ Conteúdo
 - Caracteristicas únicas do Elixir (nota sobre outras linguagens funcionais)
 - Estruturas de dados (OO vs FP)
 - Tudo é uma função (apresentação de operadores comuns)
+- Recursão e Guards
 - Como trabalhar com coleções (OO vs FP)
-- Exercicios Básicos
+- Filtrando valores com pattern matching
+- Comprehensions
+- Funções que aceitam funções
+- Exercicios básicos
 - Exercicios com composição de problemas
 - Exercicios com comunicação entre diferentes nós
 
