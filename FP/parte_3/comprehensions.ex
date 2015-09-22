@@ -33,7 +33,7 @@ defmodule Comprehensions do
     list = [2,1,2,3]
     IO.inspect for n <- list, y <- [hd(list)] , do: n * y
 
-    IO.puts "Transformando dados de um mapa sem modificá-lo"
+    IO.puts "Transformando dados de um mapa"
     map = %{:a => 1, :b => 2, :c => 3 }
     IO.inspect for {key, val} <- map, into: %{}, do: {key, val * val}
 
