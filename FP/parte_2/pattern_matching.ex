@@ -62,14 +62,14 @@ defmodule PatternMatching do
   def in_function(nil), do: nil #quando o valor é nil
   def in_function([10|tail]), do: tail #quando é uma lista e o primeiro elemento é 10
   def in_function([x|y]), do: x #retorna o primeiro elemento da lista
-  def in_function(<< "At start",  rest::binary >>) do
+  def in_function(<< "At start",  rest::binary >>) do #da match na string "At start _____"
     "Without start: #{rest}"
   end
   def in_function(_), do: "all the rest" # nenhuma das outras opções
 
   def run_it do
     in_function(nil) |> IO.inspect
-    in_function([10, 9, 8]) |> IO.inspect
+    in_function([10, 9, 8]) |> IO.puts
     in_function([1,2,3,4,5,6]) |> IO.puts
     in_function("At start of given string") |> IO.puts
     in_function(%{a: "map"}) |> IO.puts
