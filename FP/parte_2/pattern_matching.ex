@@ -61,7 +61,7 @@ defmodule PatternMatching do
 
   def in_function(nil), do: nil #quando o valor é nil
   def in_function([10|tail]), do: tail #quando é uma lista e o primeiro elemento é 10
-  def in_function([x|y]), do: x #retorna o primeiro elemento da lista
+  def in_function([x|_y]), do: x #retorna o primeiro elemento da lista
   def in_function(<< "At start",  rest::binary >>) do #da match na string "At start _____"
     "Without start: #{rest}"
   end

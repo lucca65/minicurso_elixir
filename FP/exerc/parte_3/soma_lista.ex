@@ -5,10 +5,8 @@ defmodule SomaLista do
     -> soma de todos os elementos pares
     -> soma de todos os elementos ímpares
     -> soma de todos os elementos
-
-    Você dever usar funçẽos High Order como List, Enum, Dict, Tuples ou Map
-
   """
+  
   # solucao
   def sum_odd(list) do
     Enum.filter(list, fn(x) -> is_number(x) and Integer.is_odd(x) end)
