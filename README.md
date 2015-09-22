@@ -5,7 +5,7 @@ Conteúdo
 
 - Conceitos básicos de Orientação a Objetos
 - Conceitos básicos de Funcional
-- Caracteristicas únicas do Elixir (nota sobre outras linguagens funcionais)
+- Características únicas do Elixir (nota sobre outras linguagens funcionais)
 - Estruturas de dados (OO vs FP)
 - Tudo é uma função (apresentação de operadores comuns)
 - Recursão e Guards
@@ -13,9 +13,9 @@ Conteúdo
 - Filtrando valores com pattern matching
 - Comprehensions
 - Funções que aceitam funções
-- Exercicios básicos
-- Exercicios com composição de problemas
-- Exercicios com comunicação entre diferentes nós
+- Exercícios básicos
+- Exercícios com composição de problemas
+- Exercícios com comunicação entre diferentes nós
 
 Dicas & Ferramentas
 ===
