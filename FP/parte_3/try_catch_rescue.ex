@@ -8,11 +8,11 @@ defmodule TryCatchRescue do
   end
 
   def throw_error do
-    raise Erro # erro custom
+    raise Error # erro custom
   end
 
   def throw_other_error do
-    raise Erro, message: "OUTRA MSG"
+    raise Error, message: "OUTRA MSG"
   end
 
   def catch_error do
