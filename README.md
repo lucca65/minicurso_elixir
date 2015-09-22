@@ -11,21 +11,7 @@ Conteúdo
 - Como trabalhar com coleções (OO vs FP)
 - Exercicios Básicos
 - Exercicios com composição de problemas
-
-Extra
-===
-
-- Streams como ferramenta de Lazy Evaluation em Elixir
-- Programação funcional para computação paralela
-- Impactos em sistemas distribuídos
-- Demonstração pronta de um sistema distribuído
-
-Extra 2
-===
-
-- Tipagem como ferramenta
-- Linguagens de VM vs linguagens compiladas
-- Elixir vs Outras linguagens
+- Exercicios com nodes
 
 Dicas & Ferramentas
 ===
