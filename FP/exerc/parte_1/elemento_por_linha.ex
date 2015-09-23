@@ -17,4 +17,16 @@ defmodule ElementoPorLinha do
       tail(list) ou tl(list) -> retorna toda a lista exceto o primeiro elemento.
   """
 
+  # Solução usando Enum
+  def print_one_per_line(list) do
+    Enum.each(list, fn(x) -> IO.puts(x) end)
+  end
+
+  # Solução usando Recursão
+  def print_without_enum([]), do: :ok
+  def print_without_enum(list) do
+    IO.puts(hd list)
+    print_without_enum(tl list)
+  end
+
 end

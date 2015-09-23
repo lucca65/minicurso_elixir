@@ -9,4 +9,21 @@ defmodule ParImpar do
       div
   """
 
+  # solution
+  def par([_|[]]), do: :ok
+  def par([first|list]) do
+    if rem(first, 2) == 0 do
+      IO.puts first
+    end
+    only_even list
+  end
+
+  def impar([_|[]]), do: :ok
+  def impar([first|list]) do
+    if rem(first, 2) != 0 do
+      IO.puts first
+    end
+    only_even list
+  end
+
 end
