@@ -2,7 +2,6 @@
 
 Conteúdo
 ===
-
 - Conceitos básicos de Orientação a Objetos
 - Conceitos básicos de Funcional
 - Características únicas do Elixir (nota sobre outras linguagens funcionais)
@@ -19,7 +18,6 @@ Conteúdo
 
 Dicas & Ferramentas
 ===
-
 - Flavours, distros, SO, editores. Como escolher?
 - Terminal como sua melhor e mais eficiente ferramenta
 - O que sua futura carreira pode ter a ver com programação funcional?
