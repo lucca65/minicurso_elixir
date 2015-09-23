@@ -24,7 +24,7 @@ defmodule Top10Palavras do
     |> clean_text
     |> to_list
     |> join_same_words
-    # |> generate_pairs
+    |> generate_pairs
     # |> top_10
   end
 
@@ -46,6 +46,11 @@ defmodule Top10Palavras do
   end
 
   def join_same_words(list) do
+    list
+    |> Enum.sort
+  end
+
+  def generate_pairs(list) do
     occurrences = Enum.uniq(list)
     |> Enum.map &(Enum.count(list, fn(x) -> &1 == x end))
 
