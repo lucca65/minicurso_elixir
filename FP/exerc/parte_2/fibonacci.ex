@@ -11,10 +11,4 @@ defmodule Fibonacci do
   Veja: 1+1=2, 2+1=3, 3+2=5, 3+5=8, 5+8=13...
   """
   
-  #solucao
-  def fibonacci(num) when num <= 2, do: 1
-  def fibonacci(num) do
-    fibonacci(num-1) + fibonacci(num-2);
-  end
-
 end
