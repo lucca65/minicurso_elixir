@@ -25,7 +25,7 @@ defmodule Top10Palavras do
     |> to_list
     |> join_same_words
     |> generate_pairs
-    # |> top_10
+    |> top_10
   end
 
   def clean_text(text) do
@@ -47,14 +47,20 @@ defmodule Top10Palavras do
 
   def join_same_words(list) do
     list
-    |> Enum.sort
+    |> Enum.sort &(&1 > &2)
   end
 
   def generate_pairs(list) do
     occurrences = Enum.uniq(list)
-    |> Enum.map &(Enum.count(list, fn(x) -> &1 == x end))
+    |> Enum.map(&(Enum.count(list, fn(x) -> &1 == x end)))
 
     Enum.zip Enum.uniq(list), occurrences
+  end
+
+  def top_10(pairs) do
+    pairs
+    |> Enum.into(%{})
+    |> Enum.take(10) # wrong output
   end
 
 end
