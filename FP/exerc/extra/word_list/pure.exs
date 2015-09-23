@@ -54,7 +54,7 @@ defmodule WordList do
 
   def pretty_print(tuples) do
     tuples |> Enum.map(fn(x) ->
-      IO.puts "# de repetições é #{elem(x, 1)}, a palavra: #{elem(x, 0)}"
+      IO.puts "#{elem(x, 1)}\t#{elem(x, 0)}"
     end)
   end
 
