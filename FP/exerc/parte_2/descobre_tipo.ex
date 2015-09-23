@@ -12,8 +12,6 @@ defmodule DescobreTipo do
 
   Esse problema deve ser resolvido usando Guards
   """
-  def solucao(val) when is_float(val), do: IO.puts "é float"
-  def solucao(val) when is_integer(val), do: IO.puts "é integer"
-  def solucao(_), do: IO.puts "não é number"
+
 
 end

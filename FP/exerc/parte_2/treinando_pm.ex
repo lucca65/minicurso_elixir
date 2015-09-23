@@ -12,9 +12,4 @@ defmodule TreinandoPM do
     Recupere o valor "a" da estrutura %{letters: ["A", "a", "B", "b"], numbers: [5,4,99]}
   """
 
-  # [x|_]
-  # [_|[x|_]]
-  # [_|[_|[x]]]
-  # %{letters: [_|[x|_]]}
-
 end
