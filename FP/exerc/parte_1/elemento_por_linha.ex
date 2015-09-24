@@ -13,8 +13,8 @@ defmodule ElementoPorLinha do
                5
 
     Dica:
-      head(list) ou hd(list) -> retorna o primeiro elemento de uma lista.
-      tail(list) ou tl(list) -> retorna toda a lista exceto o primeiro elemento.
+      hd(list) ou hd(list) -> retorna o primeiro elemento de uma lista.
+      tl(list) ou tl(list) -> retorna toda a lista exceto o primeiro elemento.
   """
   
 end
