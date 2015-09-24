@@ -59,7 +59,7 @@ Conteúdo Curso
 Agradecimentos
 ===
 
-Gostariamos de agradecer a todos que compareceram, e também a nossa empresa, o [KiiK](https://www.kiik.com.br/) pela oportunidade que tivemos de compartilhar um pouco da nossa cultura! ✌️🇧🇷
+Gostariamos de agradecer a todos que compareceram, e também a nossa empresa, o [KiiK](https://www.kiik.com.br/) pela oportunidade que tivemos de compartilhar um pouco da nossa cultura! 🇧🇷
 
 ![Felicidade](http://i.giphy.com/SQX0Dvqe4W7pC.gif)
 
