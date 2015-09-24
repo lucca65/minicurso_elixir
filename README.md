@@ -8,6 +8,8 @@ Onde conseguir ajuda
 
 Melhor lugar é o [canal do Slack](https://elixir-slackin.herokuapp.com) só pedir o convite no link, e acessar. Vcs podem nos encontrar no canal #brazil
 
+Participe também do MeetUp de Elixir [SP |> São Paulo](http://www.meetup.com/pt/spelixir/)
+
 Caso tenham curiosidade, há um [repositório](https://github.com/doomspork/elixir-companies) que lista algumas empresas que usam elixir em produção
 
 Além disso, vcs conseguem entrar em contato pelo próprio Github. A ideia é divulgar a cultura de compartilhar código, então caso tenham alguma dúvida, abram uma issue neste repositório e vamos conversar!
