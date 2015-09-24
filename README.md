@@ -56,6 +56,8 @@ Conteúdo Curso
 - Exercícios com composição de problemas
 - Exercícios com comunicação entre diferentes nós
 
+> A solução dos exercícios está na [tag 1.1](https://github.com/leorog/minicurso_elixir/releases)
+
 Agradecimentos
 ===
 
