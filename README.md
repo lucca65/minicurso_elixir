@@ -55,7 +55,6 @@ Conteúdo Curso
 - Exercícios básicos
 - Exercícios com composição de problemas
 - Exercícios com comunicação entre diferentes nós
-- Exercícios com comunicação entre diferentes nós
 
 Agradecimentos
 ===
