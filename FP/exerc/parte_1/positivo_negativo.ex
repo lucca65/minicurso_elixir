@@ -9,7 +9,7 @@ defmodule PositivoNegativo do
     cond do
       num > 0 -> IO.puts "positivo"
       num < 0 -> IO.puts "negativo"
-      _ -> IO.puts "zero"
+      true -> IO.puts "zero"
     end
   end
 end
