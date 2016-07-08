@@ -1,5 +1,5 @@
 defmodule DescobreTipo do
-  @doc """
+  @moduledoc """
   Crie uma função que recebe um valor e descobre se é integer, float ou não é
   um número.
 
@@ -12,5 +12,5 @@ defmodule DescobreTipo do
 
   Esse problema deve ser resolvido usando Guards
   """
-  
+
 end

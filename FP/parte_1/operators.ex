@@ -1,6 +1,5 @@
 defmodule Operators do
-
-  @doc """
+  @moduledoc """
     Operadores aritméticos, logicos e outros.
 
     Operadores são funções!

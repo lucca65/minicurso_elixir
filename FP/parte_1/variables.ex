@@ -1,12 +1,12 @@
 defmodule Variables do
-
-  @doc """
+  @moduledoc """
     Tipos e Declarações
 
     -> Todas as variaveis são imutáveis.
     -> Variáveis não precisam de tipos.
     -> O tipo é inferido em tempo de execução.
   """
+
   def types do
     int = 1
     float = 1.0

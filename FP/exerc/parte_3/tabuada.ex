@@ -1,6 +1,5 @@
 defmodule Tabuada do
-
-  @doc """
+  @moduledoc """
     Crie uma função que recebe um número e retorna sua tabuada
 
     Exemplo:

@@ -1,5 +1,4 @@
 defmodule MiniCalculadora do
-
   @doc """
   Dado uma tupla de entrada do tipo: {atom, valor1, valor1}. No qual:
   atom = :soma || :multiplica || :subtrai || :divide

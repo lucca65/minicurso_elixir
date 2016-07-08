@@ -1,6 +1,5 @@
 defmodule HelloRecursivo do
-
-  @doc """
+  @moduledoc """
     Utilizando recursão, crie uma função que recebe um número e printa no
     console "hello world" n vezes.
 

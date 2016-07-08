@@ -1,6 +1,5 @@
 defmodule Guards do
-
-  @doc """
+  @moduledoc """
     Guards são condições para filtrar parâmetros de entrada em uma função.
 
     Um Guard é definido com um ```when``` após a declaração dos parâmetros

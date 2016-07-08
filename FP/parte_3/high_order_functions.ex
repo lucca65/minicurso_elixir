@@ -1,6 +1,5 @@
 defmodule HighOrder do
-
-  @doc """
+  @moduledoc """
     High Order Functions são funções que podem receber funções como parâmetro
   """
 

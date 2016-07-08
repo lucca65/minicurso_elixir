@@ -1,6 +1,5 @@
 defmodule CondIfCase do
-
-  @doc """
+  @moduledoc """
     Estruturas Seletivas e Condição
 
     -> case
@@ -45,5 +44,4 @@ defmodule CondIfCase do
       true ->  IO.puts "Taxa = R$#{ value * 0.35}"
     end
   end
-
 end
