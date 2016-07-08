@@ -1,6 +1,5 @@
 defmodule Functions do
-
-  @doc """
+  @moduledoc """
    Declarações normais
    def -> função visivél fora do módulo
    defp -> função encapsulada

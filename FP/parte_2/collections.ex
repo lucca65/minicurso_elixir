@@ -1,6 +1,5 @@
 defmodule Collections do
-
-  @doc """
+  @moduledoc """
     Tuple, List, Map e Dict são estruturas que agrupam valores e/ou outras estruturas.
 
     Declaração:

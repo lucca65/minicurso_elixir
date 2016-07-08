@@ -1,6 +1,5 @@
 defmodule Parameters do
-
-  @doc """
+  @moduledoc """
     Também podemos passar funções, inclusive anônimas, e módulos como parâmetro
   """
 

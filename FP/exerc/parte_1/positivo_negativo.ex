@@ -1,6 +1,5 @@
 defmodule PositivoNegativo do
-
-  @doc """
+  @moduledoc """
   Crie uma função que dado um número retorne:
    -> "positivo" caso positivo
    -> "negativo" caso negativo

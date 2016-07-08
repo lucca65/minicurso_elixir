@@ -1,6 +1,5 @@
 defmodule PatternMatching do
-
-  @doc """
+  @moduledoc """
     Pattern Matching, em programação funcional, é uma forma de obter uma, ou
     várias, variáveis que estão dentro de uma estrutura complexa (list, tuple,
     map, dict...) através da definição de um pattern(modelo).
