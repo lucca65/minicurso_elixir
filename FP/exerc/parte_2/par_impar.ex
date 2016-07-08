@@ -14,7 +14,7 @@ defmodule ParImpar do
     if rem(first, 2) == 0 do
       IO.puts first
     end
-    only_even list
+    par(list)
   end
 
   def impar([_|[]]), do: :ok
@@ -22,6 +22,6 @@ defmodule ParImpar do
     if rem(first, 2) != 0 do
       IO.puts first
     end
-    only_even list
+    impar(list)
   end
 end
