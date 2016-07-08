@@ -20,5 +20,8 @@ defmodule Tabuada do
           deve escrever uma multiplicação por linha
           não pode quebrar quando receber algo diferente de um número
   """
-
+  #solucao
+  def solution(num) do
+    for n <- 1..10, y <- [num], do: IO.puts "#{y}x#{n} = #{y*n}"
+  end
 end
