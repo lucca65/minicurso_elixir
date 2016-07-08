@@ -58,7 +58,7 @@ Conteúdo Curso
 - Exercícios com composição de problemas
 - Exercícios com comunicação entre diferentes nós
 
-> A solução dos exercícios está na [branch answer](hhttps://github.com/leorog/minicurso_elixir/tree/answer)
+> A solução dos exercícios está na [branch answer](https://github.com/leorog/minicurso_elixir/tree/answer)
 
 Agradecimentos
 ===
