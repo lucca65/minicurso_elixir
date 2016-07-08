@@ -10,7 +10,7 @@ defmodule ReplicadorDeElementos do
   """
 
   # Solução
-  def our_solution(list, n) do
+  def solution(list, n) do
     # Uma função que cria uma lista de elementos repetidos
     repeat = fn(elem, n) ->
       for _ <- 1..n, do: elem

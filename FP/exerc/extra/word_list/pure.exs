@@ -18,7 +18,7 @@ defmodule WordList do
   read file and make it downcase
   """
   def read_file do
-    {:ok, text} = File.read("vish.txt")
+    {:ok, text} = File.read("words.txt")
     text |> String.downcase
   end
 
