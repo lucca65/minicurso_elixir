@@ -14,4 +14,7 @@ defmodule WordList do
   5 - Capture top ten
   """
 
+  def parse_file do
+    File.read("words.txt")
+  end
 end
