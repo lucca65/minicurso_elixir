@@ -1,0 +1,2 @@
+defmodule WordFreq do
+end
