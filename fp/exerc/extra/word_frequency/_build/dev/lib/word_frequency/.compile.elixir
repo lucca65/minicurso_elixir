@@ -1,0 +1,12 @@
+v2.
+{<<"_build/dev/lib/word_frequency/ebin/Elixir.WordFreq.Parser.beam">>,
+ 'Elixir.WordFreq.Parser',module,<<"lib/parser.ex">>,
+ ['Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Enum',maps,'Elixir.File','Elixir.Map',erlang,'Elixir.String'],
+ [],nil}.
+{<<"_build/dev/lib/word_frequency/ebin/Elixir.WordFreq.beam">>,
+ 'Elixir.WordFreq',module,<<"lib/word_frequency.ex">>,
+ ['Elixir.Application','Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Enum','Elixir.IO','Elixir.Supervisor','Elixir.WordFreq.Parser',
+  'Elixir.String.Chars','Elixir.WordFreq.Supervisor'],
+ [],nil}.
