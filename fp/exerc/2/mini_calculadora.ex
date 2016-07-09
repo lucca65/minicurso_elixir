@@ -21,5 +21,14 @@ defmodule MiniCalculadora do
     entrada: {nil, 1, 7}
     saída: 'invalid'
   """
-
+  #solução
+  def solucao(tupla) do
+    case tupla do
+      {:soma, val1, val2} -> val1 + val2
+      {:multiplica, val1, val2} -> val1 * val2
+      {:subtrai, val1, val2} -> val1 - val2
+      {:divide, val1, val2} -> val1 / val2
+      _ -> IO.puts "invalid"
+    end
+  end
 end
