@@ -1,6 +1,5 @@
 defmodule Comprehensions do
-
-  @doc """
+  @moduledoc """
     Comprehensions é meramente uma definição simplificada (syntactic sugar) para
     realizar operações de iteração, filtro e mapping em listas.
   """

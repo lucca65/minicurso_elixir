@@ -1,6 +1,5 @@
 defmodule ReplicadorDeElementos do
-
-  @doc """
+  @moduledoc """
   Dado uma lista de inteiros e um número, retorne uma lista que repita
   n vezes cada elemento da lista de entrada
 
