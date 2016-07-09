@@ -20,7 +20,7 @@ defmodule WordFreq.Parser do
   """
   def to_list(text) do
     text
-    |> String.replace("\n", "") # Remove line breaks
+    |> String.replace("\n", " ") # Remove line breaks
     |> String.split(" ") # Split on every blank space
     |> Enum.filter(&(&1 != "")) # Remove empty strings
     |> Enum.map(&String.downcase/1) # Transforms to downcase
